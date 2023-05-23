@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33627.172
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ScreamSoundapp1", "ScreamSoundapp1\ScreamSoundapp1.csproj", "{FDF11822-9C54-42E2-BC2A-E97BAF258439}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models", "Models\Models.csproj", "{9D8BB104-5CF9-427D-B187-CDF7C5E0CE9B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FDF11822-9C54-42E2-BC2A-E97BAF258439}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDF11822-9C54-42E2-BC2A-E97BAF258439}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDF11822-9C54-42E2-BC2A-E97BAF258439}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDF11822-9C54-42E2-BC2A-E97BAF258439}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D8BB104-5CF9-427D-B187-CDF7C5E0CE9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D8BB104-5CF9-427D-B187-CDF7C5E0CE9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D8BB104-5CF9-427D-B187-CDF7C5E0CE9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D8BB104-5CF9-427D-B187-CDF7C5E0CE9B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E3151B65-B1D7-44D8-B4FA-288CD96012FB}
+	EndGlobalSection
+EndGlobal
