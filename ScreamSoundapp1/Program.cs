@@ -1,4 +1,6 @@
-﻿internal class Program
+﻿using Models;
+
+internal class Program
 {
     private static void Main(string[] args)
     {
@@ -42,7 +44,9 @@
             switch (opcaoConvertida)
             {
                 case 1:
-                    RegistrarBanda();
+                    RegistrarBandas();
+                    ExibirLogo();
+                    exibirOpçoesDoMenu();
                     break;
                 case 2:
                     Console.WriteLine("Bandas Registradas: \n");
@@ -72,21 +76,20 @@
                 Console.WriteLine(mostraBandas);
             }
         }
-        void RegistrarBanda()
+        void RegistrarBandas()
         {
             Console.Clear();
-            ExibirTituloDaOpcao("Registro das Bandas");
+            Console.WriteLine("Registro de bandas");
             Console.Write("Digite o nome da banda que deseja registrar:");
             var nomeBanda = Console.ReadLine()!;
             ListaBandas.Add(nomeBanda);
             Console.WriteLine($"A banda {nomeBanda} foi registrada com sucesso");
             Thread.Sleep(2000);
             Console.Clear();
-
             ExibirLogo();
             exibirOpçoesDoMenu();
+
         }
-       
         void ExibirTituloDaOpcao(string titulo)
         {
             int quantidadeDeLetras = titulo.Length;

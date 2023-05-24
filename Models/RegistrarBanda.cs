@@ -4,7 +4,7 @@ public class RegistrarBandas
 {
     public List<string> ListaBandas = new List<string> { "U2", "The Beatles", "LinkinPark" };
 
-    public void RegistrarBanda()
+    public void Registro()
     {
         Console.Clear();
         Console.WriteLine("Registro de bandas");
@@ -14,5 +14,6 @@ public class RegistrarBandas
         Console.WriteLine($"A banda {nomeBanda} foi registrada com sucesso");
         Thread.Sleep(2000);
         Console.Clear();
+
     }
 }
